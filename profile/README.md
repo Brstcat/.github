@@ -64,6 +64,81 @@
    - APIキーやサーバーの認証情報などの機密情報は、GitHub Secretsとして保存してください。
    - これらのシークレットをGitHub Actionsのワークフローで使用し、安全なデプロイを実現してください。
 
+### 開発の始め方
+
+## 必要な環境
+
+- **Node.js** (推奨バージョン: 16.x以上)
+- **npm** (パッケージマネージャとして使用)
+- 任意のコードエディタ (例: VS Code
+
+## ローカル環境でのセットアップ方法
+
+### 1. リポジトリのクローン
+
+以下のコマンドを使用して、フロントエンドとバックエンドのリポジトリをクローンしてください。
+
+```bash
+# フロントエンドリポジトリ
+[git clone https://github.com/username/frontend-repo.git](https://github.com/Brstcat/frontend.git)
+cd frontend
+
+# 別のターミナルでバックエンドリポジトリ
+[git clone https://github.com/username/backend-repo.git](https://github.com/Brstcat/backend.git)
+cd backend
+
+```
+
+### 2. 環境変数の設定
+それぞれのリポジトリ内に .env ファイルを作成し、必要な環境変数を設定してください。
+# フロントエンド (frontend/.env)
+
+```bash
+mv .env.example .env
+
+```
+
+# バックエンド (backend/.env)
+
+```bash
+mv .env.example .env
+
+```
+
+### 3. 依存パッケージのインストール
+npm を使用して、フロントエンドとバックエンドそれぞれの依存パッケージをインストールしてください。
+
+# フロントエンド
+```bash
+   npm install
+```
+
+# バックエンド
+
+```bash
+   
+```
+
+### 4. ローカルサーバーの起動
+以下のコマンドでそれぞれのサーバーを起動します。
+
+# バックエンドサーバー
+```bash
+Copy code
+cd backend-repo
+pnpm start
+
+```
+バックエンドサーバーは http://localhost:5000 で動作します。
+
+# フロントエンドサーバー
+```bash
+Copy code
+cd frontend-repo
+pnpm start
+```
+フロントエンドサーバーは http://localhost:3000 で動作します。
+
 ## コミュニケーション
 
 1. **ミーティング**:
