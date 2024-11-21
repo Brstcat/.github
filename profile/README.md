@@ -79,11 +79,11 @@
 
 ```bash
 # フロントエンドリポジトリ
-[git clone https://github.com/Brstcat/frontend.git](https://github.com/Brstcat/frontend.git)
+git clone https://github.com/Brstcat/frontend.git
 cd frontend
 
 # 別のターミナルでバックエンドリポジトリ
-[git clone https://github.com/Brstcat/backend.git](https://github.com/Brstcat/backend.git)
+git clone https://github.com/Brstcat/backend.git
 cd backend
 
 ```
