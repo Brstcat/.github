@@ -90,14 +90,14 @@ cd backend
 
 ### 2. 環境変数の設定
 それぞれのリポジトリ内に .env ファイルを作成し、必要な環境変数を設定してください。
-# フロントエンド (frontend/.env)
+**フロントエンド (frontend/.env)**
 
 ```bash
 mv .env.example .env
 
 ```
 
-# バックエンド (backend/.env)
+**バックエンド (backend/.env)**
 
 ```bash
 mv .env.example .env
@@ -107,12 +107,12 @@ mv .env.example .env
 ### 3. 依存パッケージのインストール
 npm を使用して、フロントエンドとバックエンドそれぞれの依存パッケージをインストールしてください。
 
-# フロントエンド
+**フロントエンド**
 ```bash
    npm install
 ```
 
-# バックエンド
+**バックエンド**
 
 ```bash
    npm install
@@ -121,7 +121,7 @@ npm を使用して、フロントエンドとバックエンドそれぞれの�
 ### 4. ローカルサーバーの起動
 以下のコマンドでそれぞれのサーバーを起動します。
 
-# バックエンドサーバー
+**バックエンドサーバー**
 ```bash
 
 cd backend
@@ -130,7 +130,7 @@ pnpm start
 ```
 バックエンドサーバーは http://localhost:6000 で動作します。
 
-# フロントエンドサーバー
+**フロントエンドサーバー**
 ```bash
 cd frontend
 pnpm start
