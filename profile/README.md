@@ -80,11 +80,11 @@
 
 ```bash
 # フロントエンドリポジトリ
-[git clone https://github.com/username/frontend-repo.git](https://github.com/Brstcat/frontend.git)
+[git clone https://github.com/Brstcat/frontend.git](https://github.com/Brstcat/frontend.git)
 cd frontend
 
 # 別のターミナルでバックエンドリポジトリ
-[git clone https://github.com/username/backend-repo.git](https://github.com/Brstcat/backend.git)
+[git clone https://github.com/Brstcat/backend.git](https://github.com/Brstcat/backend.git)
 cd backend
 
 ```
@@ -116,7 +116,7 @@ npm を使用して、フロントエンドとバックエンドそれぞれの�
 # バックエンド
 
 ```bash
-   
+   npm install
 ```
 
 ### 4. ローカルサーバーの起動
@@ -124,17 +124,16 @@ npm を使用して、フロントエンドとバックエンドそれぞれの�
 
 # バックエンドサーバー
 ```bash
-Copy code
-cd backend-repo
+
+cd backend
 pnpm start
 
 ```
-バックエンドサーバーは http://localhost:5000 で動作します。
+バックエンドサーバーは http://localhost:6000 で動作します。
 
 # フロントエンドサーバー
 ```bash
-Copy code
-cd frontend-repo
+cd frontend
 pnpm start
 ```
 フロントエンドサーバーは http://localhost:3000 で動作します。
