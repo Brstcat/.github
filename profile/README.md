@@ -128,7 +128,7 @@ cd backend
 pnpm start
 
 ```
-バックエンドサーバーは http://localhost:6000 で動作します。
+バックエンドサーバーは http://localhost:6001 で動作します。
 
 **フロントエンドサーバー**
 ```bash
